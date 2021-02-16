@@ -11,5 +11,6 @@ function draw(){
     for (var i = 0; i < 30; i++) {
         circle(200, 150, i * 5);
     }
+    console.log("Afterwards: "+ i);
 } 
 

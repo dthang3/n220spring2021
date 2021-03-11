@@ -3,7 +3,7 @@ let myCircle = {
     y: 0,
     size: 20,
     update: function () {
-        fill (245, 215, 66);
+        fill (252, 19, 3;
         this.y +=.3;
         circle (this.x, this.y, this.size);
     

@@ -7,7 +7,7 @@ function calC() {
     let tip = bill * .15;
     let total_Bill = bill + tip;
    
-    dvResult.HTML ("Tip: $" + tip, "","Total: $" + total_Bill);
+    dvResult.innerHTML ("Tip: $" + tip, "","Total: $" + total_Bill);
     txtName.value = "";
 
 }

@@ -7,7 +7,8 @@ function calC() {
     let tip = bill * .15;
     let total_Bill = bill + tip;
    
-    dvResult.innerHTML = "Tip: $" + tip, "","Total: $" + total_Bill;
+    //outout on the console
+   console.log("Tip: $" + tip, " ", "Total: $" + total_Bill);
     txtName.value = "";
 
 }

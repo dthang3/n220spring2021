@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    section {
+        width: 300px;
+        height: 300px;
+        display: block;
+        text-align: center;
+        margin:auto;
+    }
+    .outer-grid {
+        width: 23%;
+        height: 23%;
+        margin: 1%;
+        float: right;
+    }
+    .grid{
+        background: #fcba03;
+        width: 100%;
+        height: 100%;
+        font-size: 50px;
+        color:#03fcf4;
+    }
+
+</style>
+<body>
+    <section align ="center">
+        <div class="outer-grid"><div class="grid" id="grid-1" onclick="checkMemory(this,1)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-2" onclick="checkMemory(this,3)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-3" onclick="checkMemory(this,5)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-4" onclick="checkMemory(this,7)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-5" onclick="checkMemory(this,4)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-6" onclick="checkMemory(this,8)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-7" onclick="checkMemory(this,2)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-8" onclick="checkMemory(this,5)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-9" onclick="checkMemory(this,8)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-10" onclick="checkMemory(this,1)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-11" onclick="checkMemory(this,2)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-12" onclick="checkMemory(this,3)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-13" onclick="checkMemory(this,7)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-14" onclick="checkMemory(this,4)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-15" onclick="checkMemory(this,6)"></div></div>
+        <div class="outer-grid"><div class="grid" id="grid-16" onclick="checkMemory(this,6)"></div></div>
+    </section>
+    <button onclick="checkMemory()">Replay.game</button>
+    <script src = "js/app.js"></script> 
+</body>
+
+</html>
